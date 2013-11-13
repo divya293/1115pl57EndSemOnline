@@ -2,7 +2,14 @@
 public class Project {
 	String project_name;
 	Sprint sprint1;
+	int report;
 	
+	public int getReport() {
+		return report;
+	}
+	public void setReport(int report) {
+		this.report = report;
+	}
 	public String getProject_name() {
 		return project_name;
 	}

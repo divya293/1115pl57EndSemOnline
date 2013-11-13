@@ -60,6 +60,7 @@ assertEquals("Divya",team.getTeam_member5());
 		team.setTeam_member2(task.getTask4());
 		team.setTeam_member3(task.getTask5());
 		team.setTeam_member4(task.getTask6());
+		//project.setReport(story.getStory_points())
 		
 		
 	}
