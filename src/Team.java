@@ -2,7 +2,7 @@
 public class Team {
 	int velocity, no_members;
 	String product_owner,scrum_master,team_member1,team_member2,team_member3,team_member4,team_member5,customers;
-
+	String Product_owner_task,scrum_master_task,member1_task,member2_task,member3_task,memeber4_task;
 
 
 	public String getProduct_owner() {

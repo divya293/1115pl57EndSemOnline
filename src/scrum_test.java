@@ -48,6 +48,19 @@ assertEquals("Divya",team.getTeam_member5());
 		assertEquals(2,sprint.getDuration());
 		story.setStory_name("Book tickets");
 		sprint.setStories(story.getStory_name());
+		task.setTask1("Set objectives");
+		task.setTask2("Design Erd");
+		task.setTask3("Design UI");
+		task.setTask4("Coding");
+		task.setTask5("Coding");
+		task.setTask6("Coding");
+		team.setProduct_owner(task.getTask1());
+		team.setScrum_master(task.getTask2());
+		team.setTeam_member1(task.getTask3());
+		team.setTeam_member2(task.getTask4());
+		team.setTeam_member3(task.getTask5());
+		team.setTeam_member4(task.getTask6());
+		
 		
 	}
 
