@@ -1,6 +1,9 @@
 
 public class Team {
 	int velocity, no_members;
+	String product_owner,scrum_master,team_members,customers;
+
+
 
 	public int getVelocity() {
 		return velocity;
